@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">AnyCam Tracker logo placeholder</title>
+  <desc id="desc">A geometric placeholder mark representing a tracked camera frame.</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="38" fill="#0f1722"/>
+  <rect x="22" y="22" width="116" height="116" rx="28" fill="none" stroke="url(#g)" stroke-width="8"/>
+  <circle cx="80" cy="80" r="22" fill="none" stroke="#ebf1f7" stroke-width="8"/>
+  <path d="M56 108 44 120M104 52l12-12M108 108l12 12M52 52 40 40" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round"/>
+</svg>

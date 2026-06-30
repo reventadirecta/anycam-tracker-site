@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnyCam Tracker | Smart Camera Software Landing Page</title>
+  <meta name="description" content="AnyCam Tracker turns a normal camera or RTSP stream into smart camera software with digital auto-framing, gesture zoom, and local control.">
+  <meta property="og:title" content="AnyCam Tracker">
+  <meta property="og:description" content="Turn a normal camera into smart camera software with digital framing, gesture zoom, and local control.">
+  <meta property="og:image" content="assets/og-placeholder.svg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="AnyCam Tracker home">
+        <img src="assets/logo-placeholder.svg" alt="AnyCam Tracker logo placeholder" width="44" height="44">
+        <div>
+          <strong>AnyCam Tracker</strong>
+          <span>AndoFrontier Labs</span>
+        </div>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="founder.html">Founder Edition</a>
+        <a href="download.html">Download</a>
+        <a href="compatibility.html">Compatibility</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="license.html">License</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Alpha landing page</p>
+          <h1>AnyCam Tracker</h1>
+          <p class="lead">Convierte una camara normal en una camara inteligente por software.</p>
+          <p>Autoencuadre digital, zoom por gestos y control local para creadores, profesores, streamers y pequenos estudios.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#demo">Ver demo</a>
+            <a class="button button-secondary" href="founder.html">Founder Edition</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/demo-placeholder.svg" alt="AnyCam Tracker demo placeholder illustration">
+        </div>
+      </section>
+
+      <section id="demo" class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Demo</p>
+          <h2>Demo de AnyCam Tracker v0.8 Alpha</h2>
+        </div>
+        <div class="video-placeholder" role="img" aria-label="Placeholder for future YouTube embed">
+          <img src="assets/demo-placeholder.svg" alt="Future YouTube demo placeholder">
+        </div>
+        <p class="section-note">This block is ready to swap for a YouTube embed when the public demo is ready.</p>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>What the alpha is built around</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card"><h3>Autoencuadre digital</h3><p>Mantiene el sujeto mejor en cuadro sin mover fisicamente la camara.</p></article>
+          <article class="card"><h3>Zoom por gestos</h3><p>Ajustes de encuadre y aproximacion desde interacciones pensadas para control local.</p></article>
+          <article class="card"><h3>Control local</h3><p>La experiencia esta pensada para operarse cerca del equipo, sin depender de una nube.</p></article>
+          <article class="card"><h3>Compatible con streams RTSP</h3><p>Ruta actual validada para fuentes de video de red en la alfa.</p></article>
+          <article class="card"><h3>Pensado para OBS por captura de ventana</h3><p>Integracion prevista alrededor de flujos de captura de ventana para creadores y estudios pequenos.</p></article>
+          <article class="card"><h3>Sin mover fisicamente la camara</h3><p>El seguimiento se apoya en encuadre digital, no en movimiento mecanico del dispositivo.</p></article>
+        </div>
+      </section>
+
+      <section class="panel accent-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Founder Edition</p>
+          <h2>Founder Edition por 50 EUR</h2>
+        </div>
+        <div class="founder-grid">
+          <div>
+            <p class="price">50 EUR</p>
+            <p>Pago unico. Licencia de por vida. Sin suscripcion.</p>
+          </div>
+          <div>
+            <p>Uso personal, profesional, educativo, comercial y creacion de contenido permitido.</p>
+            <p>Redistribucion, reventa, sublicencia, bundle, OEM, SaaS o marca blanca requieren acuerdo previo por escrito.</p>
+          </div>
+        </div>
+        <a class="button button-primary" href="founder.html">Solicitar Founder Access</a>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Compatibility</p>
+          <h2>Current validation and next targets</h2>
+        </div>
+        <div class="columns">
+          <div>
+            <h3>Currently validated</h3>
+            <ul class="feature-list">
+              <li>External RTSP Stream</li>
+              <li>Xiaomi C200 through RTSP/go2rtc developer setup</li>
+              <li>Windows alpha</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Planned / experimental</h3>
+            <ul class="feature-list">
+              <li>USB webcams</li>
+              <li>ONVIF cameras</li>
+              <li>go2rtc-compatible sources</li>
+              <li>Virtual camera output</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Roadmap</p>
+          <h2>Short path ahead</h2>
+        </div>
+        <ol class="roadmap-list">
+          <li>v0.8 Alpha: demo usable</li>
+          <li>v0.9 Founder Licensing</li>
+          <li>Installer</li>
+          <li>More camera source wizard</li>
+          <li>Virtual camera output</li>
+          <li>Compatibility list</li>
+        </ol>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Quick answers</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Does AnyCam require Sentinel?</summary><p>No.</p></details>
+          <details><summary>Does it move my camera physically?</summary><p>No, it uses digital framing.</p></details>
+          <details><summary>Can I use it for monetized content?</summary><p>Yes.</p></details>
+          <details><summary>Is there a subscription?</summary><p>Founder Edition is lifetime.</p></details>
+          <details><summary>Can I redistribute AnyCam?</summary><p>Only with written agreement.</p></details>
+          <details><summary>Is this final software?</summary><p>No, this is alpha.</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><strong>AndoFrontier Labs</strong></p>
+      <p>AnyCam Tracker</p>
+      <p>Contact placeholder</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

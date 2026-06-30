@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#1a2c42"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="470" rx="36" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.45"/>
+  <text x="120" y="250" fill="#7dd3fc" font-size="36" font-family="Segoe UI, sans-serif" letter-spacing="8">ANYCAM TRACKER</text>
+  <text x="120" y="340" fill="#ebf1f7" font-size="82" font-family="Segoe UI, sans-serif" font-weight="700">Smart camera software</text>
+  <text x="120" y="410" fill="#a6b4c5" font-size="34" font-family="Segoe UI, sans-serif">Digital auto-framing, gesture zoom, and local control.</text>
+</svg>
